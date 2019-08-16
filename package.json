@@ -1,0 +1,38 @@
+{
+  "name": "Boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Agrim Anand",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "dotenv": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "helmet": "^3.14.0",
+    "http-errors": "^1.7.1",
+    "install": "^0.12.2",
+    "node-pre-gyp": "^0.12.0",
+    "nodemailer": "^4.6.8",
+    "pg": "^7.6.1",
+    "randomatic": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
